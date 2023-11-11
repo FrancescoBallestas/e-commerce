@@ -1,0 +1,319 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-family: 'Tomorrow', sans-serif;
+	scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    transition: ease 0.3s;
+}
+
+:root{
+   --color1: #02194F;
+   --color2: #010812;
+   --color3: #034F70;
+   --color4: #4294FF;
+   --color5: #FC010A;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    image-rendering: auto;
+    object-fit: scale-down;
+}
+
+/* Estilos para el header (navbar) */
+.container-1{
+    justify-content: space-between;
+    background-color: var(--color2);  
+    height: 55px;
+    padding: 0 80px;
+}
+
+.list-1, .list-2, .list-3{
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.list-1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-1 h1{
+    padding-right: 120px;
+    font-size: 35px;
+    color: var(--color4);
+}
+
+.container-2{
+    justify-content: flex-end;
+    background-color: var(--color1);
+    gap: 10px;
+    height: 35px;
+    padding-right: 50px;
+}
+
+
+.list-2 img{
+    height: 20px;
+}
+
+
+.container-2 button{
+    background-color: var(--color1);
+    font-size: 25px;
+}
+
+/* Estilos placeholder */
+input{
+    border-radius: 5px;
+    width: 210px;
+    height: 20px;
+}
+
+input::placeholder{
+    color: rgba(20, 19, 19, 0.315);
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Estilos sección 2 */
+
+.section-2 {
+	height: 900px;
+    width: 100%;
+    background-image: url(../img/Blue\ Neon\ Creative\ Futuristic\ Name\ Gaming\ YouTube\ Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Estilos sección 3 */
+.section-3{
+    background-color: var(--color2);
+    height: 750px;
+    row-gap: 20px;
+}
+
+.section-3 h2{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 15px;
+    align-self: flex-start;
+    padding-left: 305px;
+}
+
+.container-categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	align-items: center;
+	align-content: center;
+	height: 500px;
+    width: 900px;
+    row-gap: 40px;
+    column-gap: 15px;
+    background-color: var(--color2);
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 230px;
+    width: 210px;
+    row-gap: 20px;
+    border-radius: 5px;
+}
+
+figure img{
+    height: 150px;
+    width: 180px;
+}
+
+figcaption a{
+    color: var(--color4);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+figure:hover{
+    transform: scale(0.9);
+}
+
+.img-3{
+    width: 180px;
+    height: 120px;
+    object-fit:scale-down;
+}
+
+.img-4{
+    width: 130px;
+    height: 100px;
+    object-fit:scale-down;
+}
+
+/* Estilos sección 4 */
+
+.section-4{
+    height: 2800px;
+    background-color: var(--color2);
+    row-gap: 30px;
+}
+
+.section-4 h2{
+    align-self: flex-start;
+    padding-left: 250px;
+}
+
+.tarjeta img{
+    height: 175px;
+    width: 200px;
+}
+
+.tarjeta{
+    background-color: #fff;
+    width: 485px;
+    height: 275px;
+    column-gap: 15px;
+    border-radius: 5px;
+}
+
+.tarjeta:hover{
+    transform: scale(1.05);
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.title{
+    align-self: flex-end;
+}
+
+.add-to{
+    color: #959595;
+    width: 100px;
+    height: 35px;
+    background-color: #fff;
+    border: 2px solid #4294FF;
+    border-radius: 5px;
+}
+
+.car{
+    color: #fff;
+    background-color: var(--color4);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.title-cont h3{
+    color: #010812;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.title-cont p{
+    color: #010812;
+    height: 56px;
+    width: 200px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.title-cont{
+    row-gap: 10px;
+}
+
+.categ-cont span{
+    font-size: 12px;
+    color: #010812;
+    font-weight: bolder;
+}
+
+.categ-cont{
+    column-gap: 10px;
+    padding: 5px 0;
+}
+
+/* Estilos Footer */
+
+.section-5{
+    background-color: var(--color1);
+}
+
+.footer{
+    justify-content: space-around;
+}
+
+.logo{
+    height: 40px;
+}
+
+.logo:hover{
+    transform: scale(0.8);
+}
+
+.footer{
+    height: 60px;
+}
+
+.footer span{
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--color4);
+}
+
+.banner {
+    background-color: #f8f8f8;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    row-gap: 5px;
+    background-color: #fff;
+    border: 3px solid #4294FF;
+    border-radius: 5px;
+} 
+
+.banner p {
+    margin: 0;
+    font-size: 13px;
+    color: #333;
+}
+  
+
+.banner-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.banner a:hover{
+    transform: scale(0.9);
+}
